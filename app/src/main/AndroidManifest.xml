@@ -13,6 +13,12 @@
         android:theme="@style/Theme.CafeMenu"
         tools:targetApi="31">
         <activity
+            android:name=".PizzaDetails"
+            android:exported="false" />
+        <activity
+            android:name=".SandwhichDetails"
+            android:exported="false" />
+        <activity
             android:name=".DrinkDetails"
             android:exported="false" />
         <activity

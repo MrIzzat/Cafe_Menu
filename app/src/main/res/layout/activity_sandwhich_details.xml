@@ -4,11 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PizzasMenu">
+    android:orientation="vertical"
+    tools:context=".SandwhichDetails">
 
-    <ListView
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imgSandwhich"/>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/lvPizzaMenu"/>
+        android:textSize="24dp"
+        android:id="@+id/txtName"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDesc"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
